@@ -14,7 +14,8 @@ void projected_gradient_descent(
   
   int count = 0;
   while(count < max_iters){
-    z -= line_search(f,proj_z,z,grad_f(z),10000)*grad_f(z);
+    Eigen::VectorXd derivation = grad_f(z);
+    z -= line_search(f,proj_z,z,derivation,10000)*derivation;
     proj_z(z);
     count++;
   }

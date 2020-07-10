@@ -15,14 +15,13 @@ void end_effectors_objective_and_gradient(
   /////////////////////////////////////////////////////////////////////////////
   // Replace with your code
   /////////////////////////////////////////////////////////////////////////////
-    int b_size = b.size();  
-f = [&](const Eigen::VectorXd & A)->double
+  f = [&](const Eigen::VectorXd & A)->double
   {
     double distance = 0;
     Skeleton copy = copy_skeleton_at(skeleton, A);
     Eigen::VectorXd tip = transformed_tips(copy, b);
     
-    for(int i = 0; i<b_size; i++){
+    for(int i = 0; i<b.size(); i++){
       distance += Eigen::Vector3d(tip[3*i] - xb0[3*i],
 			tip[3*i+1] - xb0[3*i+1],tip[3*i+2] - xb0[3*i+2]).squaredNorm();;
     }
@@ -39,7 +38,7 @@ f = [&](const Eigen::VectorXd & A)->double
     
     kinematics_jacobian(copy, b, jacobian);
 
-    for (int i = 0;i<b_size*3; i++) {gradient += (2*(tip(i)-xb0(i))*jacobian.row(i).transpose());}
+    for (int i = 0;i<b.size()*3; i++) {gradient += (2*(tip(i)-xb0(i))*jacobian.row(i).transpose());}
     return gradient;
   };
   
