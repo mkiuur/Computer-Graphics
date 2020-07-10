@@ -1,0 +1,17 @@
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/CMakeFiles/obj.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/CMakeFiles/quad_subdivision.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/CMakeFiles/normals.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/CMakeFiles/rebuild_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/CMakeFiles/edit_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/CMakeFiles/core.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/glad/CMakeFiles/rebuild_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/glad/CMakeFiles/edit_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/glad/CMakeFiles/glad.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/glfw/CMakeFiles/rebuild_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/glfw/CMakeFiles/edit_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/glfw/src/CMakeFiles/rebuild_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/glfw/src/CMakeFiles/edit_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/glfw/src/CMakeFiles/glfw.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/stb_image/CMakeFiles/rebuild_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/stb_image/CMakeFiles/edit_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/meshes/build/stb_image/CMakeFiles/igl_stb_image.dir

@@ -1,0 +1,14 @@
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/CMakeFiles/distances.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/CMakeFiles/rays.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/CMakeFiles/rebuild_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/CMakeFiles/edit_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/CMakeFiles/core.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/CMakeFiles/intersections.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/glad/CMakeFiles/rebuild_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/glad/CMakeFiles/edit_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/glad/CMakeFiles/glad.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/glfw/CMakeFiles/rebuild_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/glfw/CMakeFiles/edit_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/glfw/src/CMakeFiles/rebuild_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/glfw/src/CMakeFiles/edit_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/bounding-volume-hierarchy/build/glfw/src/CMakeFiles/glfw.dir

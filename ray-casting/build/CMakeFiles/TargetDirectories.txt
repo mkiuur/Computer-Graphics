@@ -1,0 +1,3 @@
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/ray-casting/build/CMakeFiles/rebuild_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/ray-casting/build/CMakeFiles/edit_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/ray-casting/build/CMakeFiles/raycasting.dir

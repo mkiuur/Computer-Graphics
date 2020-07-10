@@ -1,0 +1,4 @@
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/ray-tracing/build/CMakeFiles/rebuild_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/ray-tracing/build/CMakeFiles/edit_cache.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/ray-tracing/build/CMakeFiles/hw2.dir
+/Users/maggie/Documents/ComputerGraphics/Computer-Graphics/ray-tracing/build/CMakeFiles/raytracing.dir
