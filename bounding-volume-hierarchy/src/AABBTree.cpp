@@ -7,8 +7,6 @@ AABBTree::AABBTree(
   depth(std::move(a_depth)), 
   num_leaves(objects.size())
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Add your code here
   
   int objects_size = objects.size();
   
@@ -76,5 +74,4 @@ AABBTree::AABBTree(
   this->left = std::make_shared<AABBTree>(left,a_depth+1);
   this->right = std::make_shared<AABBTree>(right,a_depth+1);
   
-  ////////////////////////////////////////////////////////////////////////////
 }

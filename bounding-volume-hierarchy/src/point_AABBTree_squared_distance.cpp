@@ -12,8 +12,6 @@ bool point_AABBTree_squared_distance(
     double & sqrd,
     std::shared_ptr<Object> & descendant)
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here
   sqrd = std::numeric_limits<double>::infinity();
 
   std::priority_queue<distances,std::vector<distances>,
@@ -71,5 +69,4 @@ bool point_AABBTree_squared_distance(
     }
   }
   return descendant!=NULL;
-    ////////////////////////////////////////////////////////////////////////////
 }

@@ -11,11 +11,6 @@ bool triangle_triangle_intersection(
     const Eigen::RowVector3d & B1,
     const Eigen::RowVector3d & B2)
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
-  ////////////////////////////////////////////////////////////////////////////
-  
-  // For triangle intersection, thinking of one edge of triangle is intersect with another triangle. 
   
   double t;
   return (ray_intersect_triangle(Ray(A0, A1-A0), B0, B1, B2, 0, 1, t)||

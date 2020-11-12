@@ -7,8 +7,6 @@ bool ray_intersect_box(
   const double min_t,
   const double max_t)
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
   double ray_dir[3];
   double ray_or[3];
   double box_max[3];
@@ -41,5 +39,4 @@ bool ray_intersect_box(
   if(temp_max_t < temp_min_t||temp_max_t < min_t || temp_min_t > max_t){return false;}
 
   return true;
-  ////////////////////////////////////////////////////////////////////////////
 }

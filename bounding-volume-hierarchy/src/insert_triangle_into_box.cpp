@@ -6,8 +6,6 @@ void insert_triangle_into_box(
   const Eigen::RowVector3d & c,
   BoundingBox & B)
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Add your code here
   
   for(int i=0;i<3;i++){
     B.max_corner(i) = std::max(B.max_corner(i),a[i]);
@@ -18,7 +16,6 @@ void insert_triangle_into_box(
     B.min_corner(i) = std::min(B.min_corner(i),c[i]);
   }
   
-  ////////////////////////////////////////////////////////////////////////////
 }
 
 

@@ -11,8 +11,6 @@ bool ray_intersect_triangle_mesh_brute_force(
   double & hit_t,
   int & hit_f)
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
   hit_t = std::numeric_limits<double>::infinity();
   double t = -1;
   hit_f = -1;
@@ -29,5 +27,4 @@ bool ray_intersect_triangle_mesh_brute_force(
   }
   if(hit_f==-1){return false;}
   return true;  
-  ////////////////////////////////////////////////////////////////////////////
 }

@@ -4,8 +4,6 @@ double point_box_squared_distance(
   const Eigen::RowVector3d & query,
   const BoundingBox & box)
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here
   double distance = 0;
   
   double dx_min = box.min_corner(0)-query(0);
@@ -24,5 +22,4 @@ double point_box_squared_distance(
   else if (dz_max < 0){distance +=dz_max*dz_max;}
 
   return distance;
-  ////////////////////////////////////////////////////////////////////////////
 }

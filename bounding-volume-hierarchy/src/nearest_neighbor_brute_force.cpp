@@ -8,8 +8,6 @@ void nearest_neighbor_brute_force(
   int & I,
   double & sqrD)
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
   sqrD = std::numeric_limits<double>::infinity();
   int points_size = points.rows();
   for(int i=0;i<points_size;i++){
@@ -22,5 +20,4 @@ void nearest_neighbor_brute_force(
       sqrD = temp;
     }
   }
-  ////////////////////////////////////////////////////////////////////////////
 }

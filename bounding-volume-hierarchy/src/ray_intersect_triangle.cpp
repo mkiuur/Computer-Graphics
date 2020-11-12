@@ -11,8 +11,6 @@ bool ray_intersect_triangle(
   const double max_t,
   double & t)
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
   
   //Reference:
   //https://en.wikipedia.org/wiki/M%C3%B6ller%E2%80%93Trumbore_intersection_algorithm
@@ -38,6 +36,5 @@ bool ray_intersect_triangle(
   if(t<min_t||t>max_t){return false;}      //triangle not in range
   
   return true;
-  ////////////////////////////////////////////////////////////////////////////
 }
 

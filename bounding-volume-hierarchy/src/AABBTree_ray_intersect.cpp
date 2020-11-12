@@ -8,8 +8,6 @@ bool AABBTree::ray_intersect(
   double & t,
   std::shared_ptr<Object> & descendant) const 
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
   if(ray_intersect_box(ray,this->box,min_t,max_t)){
     double left_t = -1;
     double right_t = -1;
@@ -47,6 +45,5 @@ bool AABBTree::ray_intersect(
     }
   }
   return false;
-  ////////////////////////////////////////////////////////////////////////////
 }
 
