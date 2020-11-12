@@ -3,8 +3,6 @@
 Eigen::Affine3d euler_angles_to_transform(
   const Eigen::Vector3d & xzx)
 {
-  /////////////////////////////////////////////////////////////////////////////
-  // Replace with your code
   
   Eigen::Affine3d A,B,C;
 
@@ -32,5 +30,4 @@ Eigen::Affine3d euler_angles_to_transform(
 
   return C*B*A;
   
-  /////////////////////////////////////////////////////////////////////////////
 }

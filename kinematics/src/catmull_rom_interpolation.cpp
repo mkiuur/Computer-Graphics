@@ -5,9 +5,6 @@ Eigen::Vector3d catmull_rom_interpolation(
   const std::vector<std::pair<double, Eigen::Vector3d> > & keyframes,
   double t)
 {
-  /////////////////////////////////////////////////////////////////////////////
-  // Replace with your code
-  /////////////////////////////////////////////////////////////////////////////
   
   if(keyframes.size()==0){return Eigen::Vector3d(0,0,0);}
   t = std::fmod(t, keyframes[keyframes.size()-1].first);

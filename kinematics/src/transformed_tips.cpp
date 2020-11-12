@@ -5,9 +5,6 @@ Eigen::VectorXd transformed_tips(
   const Skeleton & skeleton, 
   const Eigen::VectorXi & b)
 {
-  /////////////////////////////////////////////////////////////////////////////
-  // Replace with your code
-  /////////////////////////////////////////////////////////////////////////////
   
   std::vector<Eigen::Affine3d,Eigen::aligned_allocator<Eigen::Affine3d> > T;
   forward_kinematics(skeleton, T);

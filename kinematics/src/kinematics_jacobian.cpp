@@ -7,10 +7,7 @@ void kinematics_jacobian(
   const Eigen::VectorXi & b,
   Eigen::MatrixXd & J)
 {
-  /////////////////////////////////////////////////////////////////////////////
-  // Replace with your code
   J = Eigen::MatrixXd::Zero(b.size()*3,skeleton.size()*3);
-  /////////////////////////////////////////////////////////////////////////////
   
    Eigen::VectorXd tips = transformed_tips(skeleton, b);
    int skeleton_size = skeleton.size();

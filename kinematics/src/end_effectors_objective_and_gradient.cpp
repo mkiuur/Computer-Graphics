@@ -12,9 +12,6 @@ void end_effectors_objective_and_gradient(
   std::function<Eigen::VectorXd(const Eigen::VectorXd &)> & grad_f,
   std::function<void(Eigen::VectorXd &)> & proj_z)
 {
-  /////////////////////////////////////////////////////////////////////////////
-  // Replace with your code
-  /////////////////////////////////////////////////////////////////////////////
   f = [&](const Eigen::VectorXd & A)->double
   {
     double distance = 0;
