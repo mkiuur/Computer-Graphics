@@ -1,8 +1,4 @@
-// Hint: Crib from your model_view_projection.vs
-// Layout:
-//                                         Indicate that we're dealing with
-//                                         triangles in CCW order and using a
-//                                         sane spacing.
+
 layout(triangles, equal_spacing, ccw) in;
 // Uniforms
 uniform mat4 view;
@@ -25,9 +21,6 @@ out vec3 sphere_fs_in;
 // expects: interpolat, model, 
 void main()
 {
-  /////////////////////////////////////////////////////////////////////////////
-  // Replace with your code 
-  /////////////////////////////////////////////////////////////////////////////
     mat4 model = model(is_moon, animation_seconds);
     
   	sphere_fs_in = normalize(interpolate(gl_TessCoord, pos_es_in[0].xyz,

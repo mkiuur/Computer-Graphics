@@ -1,6 +1,3 @@
-// Set the pixel color using Blinn-Phong shading (e.g., with constant blue and
-// gray material color) with a bumpy texture.
-// 
 // Uniforms:
 uniform mat4 view;
 uniform mat4 proj;
@@ -20,9 +17,6 @@ out vec3 color;
 // improved_perlin_noise, tangent
 void main()
 {
-  /////////////////////////////////////////////////////////////////////////////
-  // Replace with your code 
-  /////////////////////////////////////////////////////////////////////////////
   	mat4 model = model(is_moon, animation_seconds);
   	vec3 T, B;
     tangent(sphere_fs_in, T, B);

@@ -1,5 +1,4 @@
-// Determine the perspective projection (do not conduct division) in homogenous
-// coordinates. If is_moon is true, then shrink the model by 70%, shift away
+// If is_moon is true, then shrink the model by 70%, shift away
 // from the origin by 2 units and rotate around the origin at a frequency of 1
 // revolution per 4 seconds.
 //
@@ -23,9 +22,6 @@ out vec4 pos_cs_in;
 // expects: PI, model
 void main()
 {
-  /////////////////////////////////////////////////////////////////////////////
-  // Replace with your code 
-  /////////////////////////////////////////////////////////////////////////////
   mat4 model = model(is_moon,animation_seconds);
   pos_cs_in = proj*view*model*vec4(pos_vs_in, 1);
   if(is_moon){

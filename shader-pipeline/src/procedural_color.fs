@@ -17,9 +17,6 @@ out vec3 color;
 // expects: blinn_phong, perlin_noise
 void main()
 {
-  /////////////////////////////////////////////////////////////////////////////
-  // Replace with your code 
-  /////////////////////////////////////////////////////////////////////////////
   
     float theta = (2*M_PI/16)*animation_seconds;
     vec4 light = view*vec4(5*cos(theta), 6, 8*sin(theta), 1);

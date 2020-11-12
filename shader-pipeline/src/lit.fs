@@ -1,6 +1,3 @@
-// Add (hard code) an orbiting (point or directional) light to the scene. Light
-// the scene using the Blinn-Phong Lighting Model.
-//
 // Uniforms:
 uniform mat4 view;
 uniform mat4 proj;
@@ -16,9 +13,6 @@ out vec3 color;
 // expects: PI, blinn_phong
 void main()
 {
-  /////////////////////////////////////////////////////////////////////////////
-  // Replace with your code 
-  /////////////////////////////////////////////////////////////////////////////
   
     float theta = (2*M_PI/16)*animation_seconds;
     vec4 light = view*vec4(5*cos(theta), 6, 8*sin(theta), 1);

@@ -1,9 +1,3 @@
-// Generate a procedural planet and orbiting moon. Use layers of (improved)
-// Perlin noise to generate planetary features such as vegetation, gaseous
-// clouds, mountains, valleys, ice caps, rivers, oceans. Don't forget about the
-// moon. Use `animation_seconds` in your noise input to create (periodic)
-// temporal effects.
-//
 // Uniforms:
 uniform mat4 view;
 uniform mat4 proj;
@@ -20,9 +14,6 @@ out vec3 color;
 // improved_perlin_noise, tangent
 void main()
 {
-  /////////////////////////////////////////////////////////////////////////////
-  // Replace with your code 
-  /////////////////////////////////////////////////////////////////////////////
   	mat4 model = model(is_moon, animation_seconds);
   	vec3 T, B;
     tangent(sphere_fs_in, T, B);
