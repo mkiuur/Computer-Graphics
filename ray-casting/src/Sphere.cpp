@@ -3,8 +3,6 @@
 bool Sphere::intersect(
   const Ray & ray, const double min_t, double & t, Eigen::Vector3d & n) const
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
   Eigen::Vector3d center = this->center;
   Eigen::Vector3d direction = ray.direction;
   Eigen::Vector3d origin = ray.origin;
@@ -36,6 +34,6 @@ bool Sphere::intersect(
   n = n - center;             //normal vector
   n = n.normalized();         //normalize
   
-  return true;  ////////////////////////////////////////////////////////////////////////////
+  return true; 
 }
 

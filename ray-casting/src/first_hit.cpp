@@ -8,8 +8,6 @@ bool first_hit(
   double & t,
   Eigen::Vector3d & n)
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
   double closest_t = -1;
   Eigen::Vector3d closest_n;
   int size = objects.size();
@@ -27,6 +25,6 @@ bool first_hit(
   }
   t = closest_t;
   n = closest_n;
-  return true;  ////////////////////////////////////////////////////////////////////////////
+  return true; 
 }
 
