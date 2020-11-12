@@ -13,9 +13,6 @@ bool write_obj(
     const Eigen::MatrixXi & NF)
 {
   assert((F.size() == 0 || F.cols() == 3 || F.cols() == 4) && "F must have 3 or 4 columns");
-  ////////////////////////////////////////////////////////////////////////////
-  // Add your code here:
-  ////////////////////////////////////////////////////////////////////////////
   
   //if file is open, don't attempt to write to it
   std::ofstream objfile(filename);	
