@@ -8,8 +8,6 @@ void over(
   std::vector<unsigned char> & C)
 {
   C.resize(A.size());
-  ////////////////////////////////////////////////////////////////////////////
-  // Add your code here
   
   //References:
   //https://en.wikipedia.org/wiki/Alpha_compositing
@@ -30,6 +28,4 @@ void over(
     C.at(4*i+3)=pa*255;
     
   }
-  
-  ////////////////////////////////////////////////////////////////////////////
 }

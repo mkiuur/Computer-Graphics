@@ -8,8 +8,6 @@ void reflect(
   std::vector<unsigned char> & reflected)
 {
   reflected.resize(width*height*num_channels);
-  ////////////////////////////////////////////////////////////////////////////
-  // Add your code here
   
   if(num_channels==1){
    for(int i=0;i<height;i++){
@@ -27,6 +25,4 @@ void reflect(
       }
     }
   }
-  
-  ////////////////////////////////////////////////////////////////////////////
 }

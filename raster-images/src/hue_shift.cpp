@@ -11,8 +11,6 @@ void hue_shift(
   std::vector<unsigned char> & shifted)
 {
   shifted.resize(rgb.size());
-  ////////////////////////////////////////////////////////////////////////////
-  // Add your code here
   
   for(int i=0;i<width*height;i++){
     double h=0;
@@ -30,6 +28,4 @@ void hue_shift(
     shifted.at(3*i+1)=g;
     shifted.at(3*i+2)=b;
   }
-  
-  ////////////////////////////////////////////////////////////////////////////
 }

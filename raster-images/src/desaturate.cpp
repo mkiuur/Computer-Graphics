@@ -10,8 +10,6 @@ void desaturate(
   std::vector<unsigned char> & desaturated)
 {
   desaturated.resize(rgb.size());
-  ////////////////////////////////////////////////////////////////////////////
-  // Add your code here
   
   for(int i=0;i<width*height;i++){
     double h=0;
@@ -29,6 +27,4 @@ void desaturate(
     desaturated.at(3*i+1)=g;
     desaturated.at(3*i+2)=b;
   }
-  
-  ////////////////////////////////////////////////////////////////////////////
 }

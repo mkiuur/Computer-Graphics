@@ -8,8 +8,6 @@ void rotate(
   std::vector<unsigned char> & rotated)
 {
   rotated.resize(height*width*num_channels);
-  ////////////////////////////////////////////////////////////////////////////
-  // Add your code here
   
   if(num_channels==1){
     for(int i=0;i<height;i++){
@@ -28,6 +26,4 @@ void rotate(
       }
     }
   }
-  
-  ////////////////////////////////////////////////////////////////////////////
 }

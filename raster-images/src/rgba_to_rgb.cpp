@@ -7,8 +7,6 @@ void rgba_to_rgb(
   std::vector<unsigned char> & rgb)
 {
   rgb.resize(height*width*3);
-  ////////////////////////////////////////////////////////////////////////////
-  // Add your code here
   
   int j=0;
   for(int i=0;i<height*width*3;i++){
@@ -18,6 +16,4 @@ void rgba_to_rgb(
       j++;
     }
   }
-  
-  ////////////////////////////////////////////////////////////////////////////
 }

@@ -7,9 +7,6 @@ void demosaic(
   std::vector<unsigned char> & rgb)
 {
   rgb.resize(width*height*3);
-  ////////////////////////////////////////////////////////////////////////////
-  // Add your code here
-  
   for(int i=0;i<height;i++){
     for(int j=0;j<width;j++){
       if(i%2==0){
@@ -210,6 +207,4 @@ void demosaic(
       }
     }
   }
-  
-  ////////////////////////////////////////////////////////////////////////////
 }

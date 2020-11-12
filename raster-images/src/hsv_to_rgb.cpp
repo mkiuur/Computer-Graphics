@@ -9,8 +9,6 @@ void hsv_to_rgb(
   double & g,
   double & b)
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
   
   //References:
   //https://en.wikipedia.org/wiki/HSL_and_HSV
@@ -34,5 +32,4 @@ void hsv_to_rgb(
   g=(g+m)*255;
   b=(b+m)*255;
   
-    ////////////////////////////////////////////////////////////////////////////
 }

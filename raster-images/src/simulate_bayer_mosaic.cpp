@@ -7,8 +7,6 @@ void simulate_bayer_mosaic(
   std::vector<unsigned char> & bayer)
 {
   bayer.resize(width*height);
-  ////////////////////////////////////////////////////////////////////////////
-  // Add your code here
   
   for(int i=0;i<height;i++){
     for(int j=0;j<width;j++){
@@ -30,6 +28,4 @@ void simulate_bayer_mosaic(
       }
     }
   }
-  
-  ////////////////////////////////////////////////////////////////////////////
 }
