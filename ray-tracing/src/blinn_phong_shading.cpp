@@ -11,8 +11,6 @@ Eigen::Vector3d blinn_phong_shading(
   const std::vector< std::shared_ptr<Object> > & objects,
   const std::vector<std::shared_ptr<Light> > & lights)
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
 
 	Eigen::Vector3d rgb(0,0,0);
 	std::shared_ptr<Material> object_material =  objects[hit_id]->material;
@@ -44,6 +42,4 @@ Eigen::Vector3d blinn_phong_shading(
 	}
 
 	return rgb;
-
-  ////////////////////////////////////////////////////////////////////////////
 }

@@ -11,8 +11,6 @@ bool raycolor(
   const int num_recursive_calls,
   Eigen::Vector3d & rgb)
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
 
 	if(num_recursive_calls>10){return false;}
 
@@ -36,10 +34,6 @@ bool raycolor(
 		rgb += blinn_phong_shading(ray,hit_id,t,n,objects,lights);
 
 		return true;
-
 	}
-
   	return false;
-
-  ////////////////////////////////////////////////////////////////////////////
 }

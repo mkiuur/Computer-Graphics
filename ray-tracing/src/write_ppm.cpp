@@ -10,13 +10,9 @@ bool write_ppm(
   const int height,
   const int num_channels)
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
 assert(
     (num_channels == 3 || num_channels ==1 ) &&
       ".ppm only supports RGB or grayscale images");
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
   
   std::ofstream ppm(filename);
   if(!ppm.is_open()){
@@ -56,5 +52,4 @@ assert(
   }
   
   return true;
-  ////////////////////////////////////////////////////////////////////////////
 }

@@ -6,8 +6,6 @@
 bool Triangle::intersect(
   const Ray & ray, const double min_t, double & t, Eigen::Vector3d & n) const
 {
-  ////////////////////////////////////////////////////////////////////////////
-  // Replace with your code here:
 Eigen::Vector3d main_corner = std::get<0>(this->corners);
   Eigen::Vector3d edge1= std::get<1>(this->corners)-main_corner;
   Eigen::Vector3d edge2= std::get<2>(this->corners)-main_corner;
@@ -31,7 +29,6 @@ Eigen::Vector3d main_corner = std::get<0>(this->corners);
   n = edge1.cross(edge2);         //normal is the cross of any 2 edges 
   n = n.normalized();
   return true;
-  ////////////////////////////////////////////////////////////////////////////
 }
 
 
