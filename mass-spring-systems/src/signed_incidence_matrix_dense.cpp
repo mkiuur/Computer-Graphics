@@ -5,11 +5,8 @@ void signed_incidence_matrix_dense(
   const Eigen::MatrixXi & E,
   Eigen::MatrixXd & A)
 {
-  //////////////////////////////////////////////////////////////////////////////
-  // Replace with your code
 	int E_rows = E.rows();
   A = Eigen::MatrixXd::Zero(E_rows,n);
-  //////////////////////////////////////////////////////////////////////////////
 	
     for(int i=0; i<E_rows; i++){
         A(i, E.row(i)[0]) = 1;

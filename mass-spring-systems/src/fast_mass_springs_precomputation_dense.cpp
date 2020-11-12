@@ -15,9 +15,6 @@ bool fast_mass_springs_precomputation_dense(
   Eigen::MatrixXd & C,
   Eigen::LLT<Eigen::MatrixXd> & prefactorization)
 {
-  /////////////////////////////////////////////////////////////////////////////
-  // Replace with your code
-  /////////////////////////////////////////////////////////////////////////////
 
     signed_incidence_matrix_dense(V.rows(), E, A);
     

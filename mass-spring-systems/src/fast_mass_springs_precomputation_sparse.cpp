@@ -15,9 +15,6 @@ bool fast_mass_springs_precomputation_sparse(
   Eigen::SparseMatrix<double>  & C,
   Eigen::SimplicialLLT<Eigen::SparseMatrix<double> > & prefactorization)
 {
-  /////////////////////////////////////////////////////////////////////////////
-  // Replace with your code
-  /////////////////////////////////////////////////////////////////////////////
 	int V_rows = V.rows();
 	int E_rows = E.rows();
 	int b_size = b.size();

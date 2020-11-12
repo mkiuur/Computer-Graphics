@@ -17,9 +17,6 @@ void fast_mass_springs_step_sparse(
   const Eigen::MatrixXd & Ucur,
   Eigen::MatrixXd & Unext)
 {
-  //////////////////////////////////////////////////////////////////////////////
-  // Replace with your code
-  //////////////////////////////////////////////////////////////////////////////
  Eigen::MatrixXd D = Eigen::MatrixXd::Zero(E.rows(), 3);
     Eigen::MatrixXd B;
     
